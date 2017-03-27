@@ -51,7 +51,7 @@ Android Studio生成包(debug或release包)
 等待打包完毕,所有渠道包的文件名规则为:原始包文件名-渠道信息.apk
 完成后请关注apk渠道信息是否存在乱码情况(即渠道包的文件名)!
 ```
-有问题请于作者联系[AcmenXD@163.com] ^_^!
+有问题请于作者联系AcmenXD@163.com ^_^!
 ---
 ### 打个小广告^_^
 **gitHub** : https://github.com/AcmenXD   如对您有帮助,欢迎点Star支持,谢谢~
