@@ -6,10 +6,10 @@
 - AndroidStudio
 ```
 	allprojects {
-			repositories {
-				...
-				maven { url 'https://jitpack.io' }
-		    }
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
 	}
 ```
 ```
