@@ -42,7 +42,7 @@ Android Studio生成包(debug或release包)
 ---
 **第四步**
 ```java
-打开Marketer.jar,填写 1.*原始包apk绝对路径 2.*markets.txt绝对路径 3.*apks输出目录绝对路径
+双击打开Marketer.jar,填写 1.*原始包apk绝对路径 2.*markets.txt绝对路径 3.*apks输出目录绝对路径
 * Marketer.jar在项目根目录common中
 ```
 ---
