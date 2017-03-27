@@ -26,5 +26,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
-    compile project(':marketer')
+    /**
+     * 渠道打包工具,可视化打包工具
+     */
+    compile 'com.github.AcmenXD:Marketer:1.0'
 }
