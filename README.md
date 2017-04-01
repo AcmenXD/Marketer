@@ -1,6 +1,9 @@
 # Marketer
 渠道打包工具,可视化打包工具 -> (100个渠道包只需要10秒钟 )由作者:https://github.com/mcxiaoke 的 https://github.com/mcxiaoke/packer-ng-plugin 项目拓展而来,并解决渠道文件由于BOM编码导致的渠道信息乱码问题
 
+如要了解功能实现,请运行app程序查看控制台日志和源代码!
+* 源代码 : <a href="https://github.com/AcmenXD/Marketer">AcmenXD/Marketer</a>
+* apk下载路径 : <a href="https://github.com/AcmenXD/Resource/blob/master/apks/Marketer.apk">Marketer.apk</a>
 ### 依赖
 ---
 - AndroidStudio
