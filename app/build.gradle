@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.acmenxd.marketer.demo"
-        minSdkVersion 19
+        minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -29,5 +29,6 @@ dependencies {
     /**
      * 渠道打包工具,可视化打包工具
      */
-    compile 'com.github.AcmenXD:Marketer:1.0'
+    //    compile 'com.github.AcmenXD:Marketer:1.0'
+    compile project(':marketer')
 }
