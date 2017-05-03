@@ -16,7 +16,7 @@
 	}
 ```
 ```
-	 compile 'com.github.AcmenXD:Marketer:1.0'
+	 compile 'com.github.AcmenXD:Marketer:1.1'
 ```
 ### 功能
 ---
