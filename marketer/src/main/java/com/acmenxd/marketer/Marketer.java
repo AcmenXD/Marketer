@@ -1,5 +1,8 @@
 package com.acmenxd.marketer;
 
+import android.content.Context;
+import android.support.annotation.NonNull;
+
 import java.io.BufferedReader;
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -33,22 +36,22 @@ public final class Marketer {
 	private static final String EMPTY_STRING = "";
 	private static String sCachedMarket;
 
-	public static String getMarket(final Object context) {
+	public static String getMarket(@NonNull final Context context) {
 		return getMarket(context, EMPTY_STRING);
 	}
 
-	public static synchronized String getMarket(final Object context, final String defaultValue) {
+	public static synchronized String getMarket(@NonNull final Context context,@NonNull  final String defaultValue) {
 		if (sCachedMarket == null) {
 			sCachedMarket = getMarketInternal(context, defaultValue).market;
 		}
 		return sCachedMarket;
 	}
 
-	public static MarketInfo getMarketInfo(final Object context) {
+	public static MarketInfo getMarketInfo(@NonNull final Context context) {
 		return getMarketInfo(context, EMPTY_STRING);
 	}
 
-	public static synchronized MarketInfo getMarketInfo(final Object context, final String defaultValue) {
+	public static synchronized MarketInfo getMarketInfo(@NonNull final Context context, @NonNull final String defaultValue) {
 		return getMarketInternal(context, defaultValue);
 	}
 
@@ -81,7 +84,7 @@ public final class Marketer {
 		}
 	}
 
-	public static class MarketExistsException extends IOException {
+	private static class MarketExistsException extends IOException {
 		public MarketExistsException() {
 			super();
 		}
@@ -91,7 +94,7 @@ public final class Marketer {
 		}
 	}
 
-	public static class MarketNotFoundException extends IOException {
+	private static class MarketNotFoundException extends IOException {
 		public MarketNotFoundException() {
 			super();
 		}
@@ -101,7 +104,7 @@ public final class Marketer {
 		}
 	}
 
-	public static class Helper {
+	private static class Helper {
 		static final String UTF_8 = "UTF-8";
 		static final int ZIP_COMMENT_MAX_LENGTH = 65535;
 		static final int SHORT_LENGTH = 2;
