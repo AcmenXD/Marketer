@@ -18,7 +18,6 @@ android {
         }
     }
 }
-
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -29,6 +28,6 @@ dependencies {
     /**
      * 渠道打包工具,可视化打包工具
      */
-    compile 'com.github.AcmenXD:Marketer:2.0'
-//    compile project(':marketer')
+//    compile 'com.github.AcmenXD:Marketer:3.1'
+    compile project(':marketer')
 }
