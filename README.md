@@ -6,6 +6,8 @@
 * apk下载路径 : <a href="https://github.com/AcmenXD/Resource/blob/master/apks/Marketer.apk">Marketer.apk</a>
 
 ![jpg](https://github.com/AcmenXD/Marketer/blob/master/pic/1.jpg)
+![jpg](https://github.com/AcmenXD/Marketer/blob/master/pic/2.jpg)
+![jpg](https://github.com/AcmenXD/Marketer/blob/master/pic/3.jpg)
 
 ### 依赖
 ---
@@ -19,7 +21,7 @@
 	}
 ```
 ```
-	 compile 'com.github.AcmenXD:Marketer:2.1'
+	 compile 'com.github.AcmenXD:Marketer:3.0'
 ```
 ### 功能
 ---
