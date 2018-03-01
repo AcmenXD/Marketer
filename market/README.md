@@ -15,7 +15,7 @@ Android Studio生成包(debug或release包)
 **第三步**
 ```java
 配置markets.txt文件,规则:每行一个渠道名,注释用#号
-* markets.txt文件在项目根目录common中有示例
+* markets.txt文件在项目根目录market中有示例
 ```
 ---
 **第四步**
