@@ -7,6 +7,9 @@ ext {
     minSdkVersion = 14
     targetSdkVersion = 26
 
+    // 渠道打包库
+    marketer = "com.github.AcmenXD:Marketer:3.2"
+
     // 系统库
     system = [
             appcompatV7 : "com.android.support:appcompat-v7:26.1.0",
