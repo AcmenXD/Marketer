@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * 默认渠道号
      */
-    public static final String DEFAULT_MARKET = "AcmenXD";
+    public static final String DEFAULT_MARKET = "Marketer";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
